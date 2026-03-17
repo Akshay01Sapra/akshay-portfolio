@@ -10,7 +10,7 @@ const WorkExperience = () => {
           <div className="row g-3 g-lg-5 ">
               
               
-                  <img src={BGImg} className="img" />
+                  <img src={BGImg} alt="background shadow" className="img" />
               
               <div className="col-12 col-md-6">
                   <div className="Work-card h-100 d-flex align-items-center ">
