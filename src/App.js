@@ -14,14 +14,7 @@ import Contactform from './components/Contactform';
 import About from './components/About';
 import Footer from './components/Footer';
 function App() {
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
-  const [pendingTheme, setPendingTheme] = useState(null);
   
-  
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [theme]);
 
   
 

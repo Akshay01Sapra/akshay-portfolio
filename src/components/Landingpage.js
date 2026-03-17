@@ -16,7 +16,7 @@ const Landingpage = () => {
       <nav className="navbar navbar-expand-lg navbar-wrapper">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src={LandingLogo} height={50} alt="logo image" />
+            <img src={LandingLogo} height={50} alt="logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             {/* <span className="navbar-toggler-icon"></span> */}
@@ -72,7 +72,7 @@ const Landingpage = () => {
             <div className="vision-card">
               <div className="d-flex align-items-center">
                 <div>
-                  <img src={Icon1} alt="brand image" height={110}></img>
+                  <img src={Icon1} alt="brand" height={110}></img>
                 </div>
                 
                 <div className="ps-3">
@@ -87,7 +87,7 @@ const Landingpage = () => {
             <div className="vision-card">
               <div className="d-flex align-items-center">
                 <div>
-                  <img src={Icon2} alt="vision card image" height={110}></img>
+                  <img src={Icon2} alt="vision card " height={110}></img>
                 </div>
 
                 <div className="ps-3">
@@ -102,7 +102,7 @@ const Landingpage = () => {
             <div className="vision-card">
               <div className="d-flex align-items-center">
                 <div>
-                  <img src={Icon3} alt="brand image" height={110}></img>
+                  <img src={Icon3} alt="brand " height={110}></img>
                 </div>
 
                 <div className="ps-3">
@@ -117,7 +117,7 @@ const Landingpage = () => {
             <div className="vision-card">
               <div className="d-flex align-items-center">
                 <div>
-                  <img src={Icon4} alt="brand image" height={110}></img>
+                  <img src={Icon4} alt="brand " height={110}></img>
                 </div>
 
                 <div className="ps-3">
@@ -165,7 +165,7 @@ const Landingpage = () => {
           <div className="row gx-5">
             <div className="col-4">
               <div className="service-card">
-                <img src={scard1} alt="brand image"></img>
+                <img src={scard1} alt="brand "></img>
                 
                 <div className="p-3">
                   <h3 className="service-card-title">Detailed Vision Testing</h3>
@@ -176,7 +176,7 @@ const Landingpage = () => {
             </div>
             <div className="col-4">
               <div className="service-card">
-                <img src={scard2} alt="brand image"></img>
+                <img src={scard2} alt="brand "></img>
 
                 <div className="p-3">
                   <h3 className="service-card-title">Early Detection of Changes</h3>
@@ -187,7 +187,7 @@ const Landingpage = () => {
             </div>
             <div className="col-4">
               <div className="service-card">
-                <img src={scard3} alt="brand image"></img>
+                <img src={scard3} alt="brand "></img>
 
                 <div className="p-3">
                       <h3 className="service-card-title">Comfortable Experience</h3>
@@ -237,7 +237,7 @@ const Landingpage = () => {
 
         <div class="form-card">
           <div class="doctor-image">
-            <img src={Doctor} alt="brand image" />
+            <img src={Doctor} alt="brand " />
           </div>
 
           <div class="form-area">

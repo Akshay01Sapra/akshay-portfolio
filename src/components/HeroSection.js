@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className="col-xl-3 col-md-4 col-12">
                     <div className="avatar-img">
                         
-                    <img src={heroImg} alt="Prifle Image" className="heroImg" />
+                    <img src={heroImg} alt="Prifle " className="heroImg" />
                     </div>
                 </div>
                 
@@ -24,7 +24,7 @@ const HeroSection = () => {
 modern UI systems, and responsive frontend development.</p>
                         <div className="d-flex flex-wrap">  
                             
-                            {/* <button className="primary-btn d-flex items-center">Download Resume <span className="ms-2"> <img src={DownloadIcon} height={18}></img></span> </button> */}
+                            
                             <a
                                 href="/AkshayResume.pdf"
                                 download="AkshayResume.pdf"
@@ -33,7 +33,7 @@ modern UI systems, and responsive frontend development.</p>
                                 <button className="primary-btn d-flex items-center">
                                     Download Resume
     <span className="ms-2">
-                                        <img src={DownloadIcon} height={18} alt="download icon" />
+                                        <img src={DownloadIcon} height={18} alt="download" />
                                     </span>
                                 </button>
                             </a>

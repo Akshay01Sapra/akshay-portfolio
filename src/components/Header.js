@@ -17,7 +17,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg navbar-wrapper">
               <div className="container">
                   <a className="navbar-brand" href="/">
-                      <img src={LogoImg} className="logo-img"   alt="logo image" />
+                      <img src={LogoImg} className="logo-img"   alt="logo" />
                       
                   </a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
