@@ -16,7 +16,7 @@ const Header = () => {
     <header className={`mainheader ${isSticky ? "sticky-header" : ""}`}>
           <nav className="navbar navbar-expand-lg navbar-wrapper">
               <div className="container">
-                  <a className="navbar-brand" href="#">
+                  <a className="navbar-brand" href="/">
                       <img src={LogoImg} className="logo-img"   alt="logo image" />
                       
                   </a>

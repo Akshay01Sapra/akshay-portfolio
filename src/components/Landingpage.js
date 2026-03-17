@@ -15,7 +15,7 @@ const Landingpage = () => {
     <div className="landing-page">
       <nav className="navbar navbar-expand-lg navbar-wrapper">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={LandingLogo} height={50} alt="logo image" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@ const Landingpage = () => {
           <div className="collapse navbar-collapse small-header " id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                <a className="nav-link active" aria-current="page" href="/">HOME</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">ABOUT</a>
+                <a className="nav-link active" aria-current="page" href="/">ABOUT</a>
               </li>
               <li className="nav-item me-0">
-                <a className="nav-link active" aria-current="page" href="#">CONTACT</a>
+                <a className="nav-link active" aria-current="page" href="/">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -237,7 +237,7 @@ const Landingpage = () => {
 
         <div class="form-card">
           <div class="doctor-image">
-            <img src={Doctor} alt="Doctor" alt="brand image" />
+            <img src={Doctor} alt="brand image" />
           </div>
 
           <div class="form-area">
