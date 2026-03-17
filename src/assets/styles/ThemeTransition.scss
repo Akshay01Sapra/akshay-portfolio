@@ -1,0 +1,59 @@
+// .theme-transition.horizontal {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+//   display: flex;
+//   z-index: 9999;
+//   pointer-events: none;
+
+//   .bar {
+//     height: 100%;
+//     width: 10%;
+//     opacity: 1;
+//     transform: translateX(0%);
+//     animation: wipeRightFade 1s ease-in-out forwards;
+//   }
+// }
+
+// @keyframes wipeRightFade {
+//   to {
+//     transform: translateX(0%);
+//     opacity: 0;
+//   }
+// }
+
+
+// circle effect from bottom left to top right
+
+.theme-transition.ripple {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+  
+
+  .circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: scale(0);
+    transform-origin: bottom left;
+    animation: rippleDiagonal 1.5s ease-out forwards;
+  }
+}
+
+@keyframes rippleDiagonal {
+  to {
+    transform: scale(25);
+    opacity: 0;
+  }
+}

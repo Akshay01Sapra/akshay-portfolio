@@ -1,0 +1,118 @@
+.navbar-wrapper{
+    background-color: #1A0B2E;
+  transition: all 0.3s ease;
+  
+    
+    padding: 12px;
+    .navbar-toggler{
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        };
+        transition: all 0.3s ease-in-out;
+        &[aria-expanded="true"] {
+    .toggler-icon1 {
+      transform: rotate(45deg) translate(3px, 3px);
+      margin-bottom: 0;
+    }
+
+    .toggler-icon2 {
+      opacity: 0;
+    }
+
+    .toggler-icon3 {
+      transform: rotate(-45deg) translate(3px, -3px);
+      margin-bottom: 0;
+    }
+  }
+
+        .toggler-icon1,.toggler-icon2,.toggler-icon3{
+            height: 2px;
+            width: 18px;
+            border-radius: 10px;
+            background-color: #fff;
+            margin-bottom: 4px;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    
+    @media screen and (max-width: 992px) {
+    .small-header{
+            background-color: #1A0B2E;
+            position: fixed;
+            left: -100%;
+            top: 0;
+            padding: 20px;
+            width: 160px;
+            height: 100vh;
+            transition: all 0.2s ease-in-out;
+            z-index: 9999;
+            // border: 1px solid white;
+            
+          &.show{
+          left: 0%;  
+          transition: all 0.2s ease-in-out;
+          // &::before{
+          //   content: "";
+          //   position: absolute;
+          //   left: 0;
+          //   top:0;
+          //   z-index: -1;
+          //   height: 100vh;
+          //   width: 100vw;
+          //   background-color: #1A0B2E;
+          // }
+        }
+        }
+        
+    }
+    
+    .navbar-nav{
+        .nav-item{
+            margin-right: 40px;
+            &:hover{
+              cursor: pointer;
+            }
+            .nav-link{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.mainheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  // padding: 20px 0;
+  transition: all 0.35s ease;
+  background: transparent;
+}
+
+/* STICKY HEADER ACTIVE */
+.mainheader.sticky-header {
+  // background: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(10px);
+  // padding: 12px 0;
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.25);
+  animation: slideDown 0.4s ease forwards;
+}
+
+// @keyframes slideDown {
+//   0% {
+//     transform: translateY(-100%);
+//     opacity: 0;
+//   }
+
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+.logo-img{
+  height: 40px;
+}

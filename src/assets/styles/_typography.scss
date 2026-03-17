@@ -1,0 +1,16 @@
+.xs-text{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .md-text{
+      font-size: 32px;
+      @media (max-width:992px){
+        font-size: 26px;
+      }
+    }
+    .sm-text{
+        // padding-top: 45px;
+        font-size: 14px;
+              
+    }

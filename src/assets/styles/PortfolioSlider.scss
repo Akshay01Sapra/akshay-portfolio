@@ -1,0 +1,36 @@
+/* The viewport is the visible window: exactly one full card high */
+.vp-viewport {
+  width: 50%;   /* adjust to your layout */
+  height: 600px;  /* this equals one full card height */
+  overflow: visible;             /* DO NOT clip children */
+  position: relative;
+}
+
+/* Swiper container must allow overflow so prev/next can peek */
+.vp-swiper {
+  height: 100%;
+  overflow: visible !important;  /* override Swiper's hidden */
+}
+
+/* (Extra safety) If your setup scopes classes differently */
+.vp-swiper > .swiper-wrapper { overflow: visible; }
+
+/* Simple card so you can see it working */
+.vp-card {
+  position: relative;
+  height: 100%;
+  border-radius: 18px;
+  background: linear-gradient(
+    45deg,
+    rgba(105, 59, 147, 1) 0%,
+    rgba(110, 191, 244, 0.22) 77%,
+    rgba(70, 144, 212, 0) 100%
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}

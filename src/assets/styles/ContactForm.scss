@@ -1,0 +1,98 @@
+.form-wrapper{
+    .form-heading{
+        // padding-top:50px;
+        padding-bottom: 48px;
+    }
+    .contact-form{
+        padding-bottom: 50px;
+        .form-btn{
+            button{
+                padding: 14px 56px;
+                border-radius: 30px;
+                border: none;
+                color: #fff;
+                font-weight: 500;
+                font-size: 16px;
+                cursor: pointer;
+                background: linear-gradient(90deg, #693B93 0%, #4690D4 100%);
+                box-shadow: 0 6px 20px rgba(70,144,212,0.3);
+                transition: all 0.3s ease;
+                @media(max-width:768px){
+                    padding: 10px 45px;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+        .form-group{
+            position: relative;
+            label{
+                margin-bottom: 10px;
+                @media(max-width:768px){
+                   font-size: 12px;
+                    
+                }
+            }
+            input,select,textarea{
+                width: 100%;
+                padding: 15px;
+                border-radius: 14px;
+                border: none;
+                background-color: #352C41;
+                color: #fff;
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                    
+                }
+                @media(max-width:768px){
+                    padding: 6px;
+                    
+                }
+            }
+            select{
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                
+                position: relative;
+                
+                
+            }
+            
+        //     &::after {
+        //     content: "";
+        //     position: absolute;
+        //     left: 3px;
+        //     bottom: -2px;
+        //     height: 15px;
+        //     z-index: -1;
+        //     width: 99%;
+        //     background: linear-gradient(
+        //     90deg,
+        //     rgba(105, 59, 147, 1) 0%,
+        //     rgba(110, 191, 244, 0.22) 77%,
+        //     rgba(70, 144, 212, 0) 100%
+        //     );
+        //     border-radius: 18px;
+        // }
+    }
+}
+}
+
+.select-wrap{
+    position: relative;
+    
+    &::after{
+                    content: "";
+                    position: absolute;
+                    right: 16px;
+                    top: 50%;
+                    width: 10px;
+                    height: 10px;
+                    border-right: 2px solid #FFF;
+                    border-bottom: 2px solid #FFF;
+                    transform: translateY(-60%) rotate(45deg);
+                    pointer-events: none;
+                }
+}

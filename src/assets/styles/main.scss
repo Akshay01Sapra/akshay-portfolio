@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'mixins';
+@import 'global';
+@import 'theme';
+@import 'typography';
+.main-wrapper{
+    min-height: 100vh;
+    
+    section{
+      padding-top: 100px;
+      @media(max-width: 1024px){
+      padding-top: 70px;
+    }
+      .section-title{
+        margin-bottom: 48px;
+        
+        @media(max-width: 768px){
+          margin-bottom: 28px;
+        }
+      }
+    }
+}
+
+.theme-toggler{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}

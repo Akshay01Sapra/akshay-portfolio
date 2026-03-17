@@ -1,0 +1,95 @@
+.work-experence-wrapper{
+    position: relative;
+    .Work-card{
+        // min-height: 200px;
+        
+        border-radius: 10px;
+        padding:35px;
+        background-image: url("../images/Rectangle\ 984.png");
+        background-size: cover;  
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top: 2px solid linear-gradient(90deg, #2C1250 0%, #6429B6 100%);;
+        position: relative;
+        overflow: hidden;
+        transition: all ease-in-out 0.2s;
+        
+        @media (max-width:992px){
+            padding: 18px;
+        }
+        &:hover{
+            
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+        }
+            &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(90deg, #2C1250 0%, #6429B6 100%);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .card-title{
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .card-list{
+            padding-left: 12px;
+            li{
+                margin-bottom: 10px;
+line-height: 1.6;
+            }
+//             li::marker {
+//   color: #a78bfa;;
+// }
+        }
+        .card-text{
+           font-family: Poppins;
+            font-size: 14px; 
+            margin-top: 5px;
+        }
+        .card-sm-text{
+            font-size: 14px;
+        }
+        // .btn-container{
+          
+        //     border-radius: 32px; /* Fully rounded */
+        //     display: inline;
+        //     padding: 10px 1px;
+        //     background: linear-gradient(180deg, #693B93, #20122D);;
+        // }
+        .card-btn{
+           margin-top: 15px;
+           padding: 12px 24px;
+            background-color: #2C1250; /* Inner fill */
+            color: white;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 32px; /* Fully rounded */
+            // border: 1px solid #693B93;
+            border: none;
+        }
+    }
+    
+        
+        .img{
+            height: 500px;
+            width: auto;
+            position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        // top: -20%;
+        opacity: .8;
+        z-index: -1;
+        }
+    
+}
