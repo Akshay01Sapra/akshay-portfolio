@@ -35,8 +35,21 @@ const HeroSection = () => {
                         <h3 className="lg-text mb-0 body-heading">Designing intuitive interfaces  <span>and high performing web experiences.</span> </h3>
                         <p className="xs-text para-width">I specialize in crafting user-focused digital products that combine thoughtful UX,
 modern UI systems, and responsive frontend development.</p>
-                        <div className="d-flex flex-wrap">    
-                            <button className="primary-btn d-flex items-center">Download Resume <span className="ms-2"> <img src={DownloadIcon} height={18}></img></span> </button>
+                        <div className="d-flex flex-wrap">  
+                            
+                            {/* <button className="primary-btn d-flex items-center">Download Resume <span className="ms-2"> <img src={DownloadIcon} height={18}></img></span> </button> */}
+                            <a
+                                href="/AkshayResume.pdf"
+                                download="AkshayResume.pdf"
+                                className="text-decoration-none"
+                            >
+                                <button className="primary-btn d-flex items-center">
+                                    Download Resume
+    <span className="ms-2">
+                                        <img src={DownloadIcon} height={18} alt="download icon" />
+                                    </span>
+                                </button>
+                            </a>
                             <Link
                                 to="crafted-experience"
                                 smooth={true}

@@ -69,12 +69,11 @@ const Header = () => {
                           </li>
                           
                           <li className="nav-item me-0">
-                              <Link className="nav-link active" aria-current="page"
-                                  to=""
-                                  smooth={true}
-                                  duration={300}
-                                  offset={-80}
-                              >RESUME</Link>
+                              <a className="nav-link active" aria-current="page"
+                                  href="/AkshayResume.pdf"
+                                  target="_blank"
+                                  rel="noreferrer"
+                              >RESUME</a>
                               </li>
                       </ul>
                       </div>
