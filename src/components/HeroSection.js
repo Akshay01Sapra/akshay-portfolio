@@ -1,30 +1,17 @@
 import React from "react";
 import "../assets/styles/HeroSection.scss";
-import profileImage from "../assets/images/profile1.jpg";
 import heroImg from "../assets/images/profile3.png";
 import DownloadIcon from "../assets/images/charm_download.png"
-import Icon1 from "../assets/images/line-md_linkedin.png"
 import { Link } from "react-scroll";
 const HeroSection = () => {
     return (
-//         <section className="hero profile-wrapper mx-0 container-fluid border">
-//             <div className="row">
-//                 <div className="col-md-4">
-//                     <div className="">
-//                         <img src={profileImage} className="profile-img" />
-//                     </div>
-//                 </div>
-//                 <div className="col-md-8">
-// hi
-//                 </div>
-//             </div>
-//         </section>
+
         <section className="container hero-section-wrapper" id="Home">
             <div className="row ">
                 <div className="col-xl-3 col-md-4 col-12">
                     <div className="avatar-img">
                         
-                    <img src={heroImg} className="heroImg" />
+                    <img src={heroImg} alt="Prifle Image" className="heroImg" />
                     </div>
                 </div>
                 
@@ -61,9 +48,7 @@ modern UI systems, and responsive frontend development.</p>
                             </Link>
                         </div>
                         
-                        {/* <div>
-                            <img src={Icon1} height={40} />
-                        </div> */}
+                        
                     </div>
                 </div>
             </div>

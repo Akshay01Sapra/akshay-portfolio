@@ -16,7 +16,7 @@ const WorkExperience = () => {
                   <div className="Work-card h-100 d-flex align-items-center ">
                       <div className="d-flex align-items-top">
                           <div className="">
-                          <img src={CardImg} height={40} width={40} className="my-auto" />
+                          <img src={CardImg} alt="card image" height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
                               <h4 className="card-title body-heading">UI/UX & Frontend Web Designer</h4>
@@ -40,7 +40,7 @@ const WorkExperience = () => {
                   <div className="Work-card h-100 ">
                       <div className="d-flex align-items-top">
                           <div className="">
-                              <img src={CardImg} height={40} width={40} className="my-auto" />
+                              <img src={CardImg} alt="card image" height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
                               <h4 className="card-title body-heading">Web Designer</h4>
@@ -64,7 +64,7 @@ const WorkExperience = () => {
                   <div className="Work-card h-100 ">
                       <div className="d-flex align-items-top">
                           <div className="">
-                              <img src={CardImg} height={40} width={40} className="my-auto" />
+                              <img src={CardImg} alt="card image" height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
                               <h4 className="card-title body-heading">Web Designer</h4>
@@ -89,7 +89,7 @@ const WorkExperience = () => {
                   <div className="Work-card h-100 ">
                       <div className="d-flex align-items-top">
                           <div className="">
-                              <img src={CardImg} height={40} width={40} className="my-auto" />
+                              <img src={CardImg} alt="card image" height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
                               <h4 className="card-title body-heading">Intern</h4>

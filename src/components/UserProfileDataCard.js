@@ -5,7 +5,7 @@ const UserProfileDataCard = () => {
     <div>
          
           <div className="user-card">
-              {/* <img className="avatar" src={avatar} alt="User Avatar" /> */}
+              
               <h3 className="name">Alex Carter</h3>
               <p className="role">Frontend Developer</p>
               <p className="bio">

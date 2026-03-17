@@ -1,6 +1,5 @@
-import React from 'react'
+
 import frame1 from '../assets/images/carft2.png'
-import frame2 from '../assets/images/carft3.png'
 import frame3 from '../assets/images/carft4.png'
 import frame4 from '../assets/images/carft5.png'
 import frame5 from "../assets/images/clinic.png"
