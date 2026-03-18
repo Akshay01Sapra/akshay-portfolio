@@ -18,7 +18,7 @@ const CustomCard = ({ activeCategory }) => {
     }, [selectedProject]);
 
     const filteredProjects =
-        activeCategory === "ALL"
+        activeCategory === "All"
             ? ExpCard
             : ExpCard.filter((project) => project.category.includes(activeCategory));
 

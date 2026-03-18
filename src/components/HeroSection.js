@@ -44,7 +44,7 @@ modern UI systems, and responsive frontend development.</p>
                                 offset={-80}
                             
                             >
-                                <button className="primary-btn d-flex items-center ms-3"> Explore My Work </button>
+                                <button className="secondary-btn d-flex items-center ms-3"> Explore My Work </button>
                             </Link>
                         </div>
                         

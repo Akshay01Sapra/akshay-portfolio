@@ -5,7 +5,7 @@ import CustomCard from './CustomCard'
 
 const CraftedExperience = () => {
   
-  const [activeCategory,setActiveCategory] = useState("ALL")
+  const [activeCategory, setActiveCategory] = useState("All")
   return (
     <section className="" id="crafted-experience">
       <div className="container Crafted-wrapper">
@@ -13,7 +13,7 @@ const CraftedExperience = () => {
 
         <div className="btn-panels section-title">
           
-          {["ALL", "UI", "UX", "Web Design"].map((cat) => (
+          {["All", "UI", "UX", "Web Design"].map((cat) => (
             <button
               key={cat}
               className={`craft-btn btn ${activeCategory === cat ? "active" : ""}`}
