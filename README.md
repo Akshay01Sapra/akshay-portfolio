@@ -16,7 +16,8 @@ A modern, responsive portfolio showcasing my UI/UX design and frontend developme
 - JavaScript
 
 ## 📸 Live Preview
-(Will add after deployment)
+
+https://akshay-portfolio-beige.vercel.app
 
 ## 📂 Projects Included
 - Kanvas Medical
