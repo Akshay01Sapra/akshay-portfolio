@@ -19,14 +19,14 @@ const WorkExperience = () => {
                           <img src={CardImg} alt="card " height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
-                              <h4 className="card-title body-heading">UI/UX & Frontend Web Designer</h4>
+                              <h4 className="card-title body-heading">UI/UX & Web Designer</h4>
                               <p className="mb-0 card-sm-text">Toronto, Canada</p>
                               <p className="card-sm-text">March 2024 - Present</p>
                               {/* <p className="card-text mb-0">Designed responsive websites and interactive UI components from Figma to front-end using HTML, CSS/SCSS, Bootstrap, Tailwind, Material UI, and React.js with Git collaboration.</p> */}
                               <ul className="card-list">
                                   <li className="card-text">Designed scalable UI components from Figma to React </li>
-                                  <li className="card-text">Built mobile-first responsive interfaces using Tailwind & SCSS </li>
-                                  <li className="card-text">Delivered production-ready frontends with clean, reusable code</li>
+                                  <li className="card-text">Built mobile first responsive interfaces using Tailwind & SCSS </li>
+                                  <li className="card-text">Delivered production ready frontends with clean, reusable code</li>
                               </ul>
                               <div className="btn-container">
                                   
@@ -72,7 +72,7 @@ const WorkExperience = () => {
                               <p className="card-sm-text">August 2021 - April 2023</p>
                               {/* <p className="card-text mb-0">Crafted modern, interactive web pages for a graphic-rich diet studio using Figma, Material UI, Tailwind, and React.js, designing prototypes for seamless interfaces.</p> */}
                               <ul className="card-list">
-                                  <li className="card-text">Designed modern UI systems for product-focused websites</li>
+                                  <li className="card-text">Designed modern UI systems for product focused websites</li>
                                   <li className="card-text">Built responsive layouts using Tailwind and Material UI</li>
                                   <li className="card-text">Improved usability and visual consistency across pages</li>
                               </ul>
@@ -92,7 +92,7 @@ const WorkExperience = () => {
                               <img src={CardImg} alt="card" height={40} width={40} className="my-auto" />
                           </div>
                           <div className='ps-lg-3'>
-                              <h4 className="card-title body-heading">Intern</h4>
+                              <h4 className="card-title body-heading">Web Design Intern</h4>
                               <p className="mb-0 card-sm-text">ThirdRockTechno- Ahmedabad, India.</p>
                               <p className="card-sm-text">Jan 2021 - Jul 2021</p>
                               {/* <p className="card-text mb-0">Assisted in building responsive web pages and translating Figma prototypes. */}

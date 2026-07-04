@@ -18,13 +18,10 @@ const HeroSection = () => {
                 <div className="col-xl-9 col-md-8 col-12">
                     <div className="title-text ">
                         <p className="mb-0 arrow">Hello! I am <span>Akshay Sapra</span> </p>
-                        <p className="sm-text top-margin mb-0">UI/UX Designer & Frontend Developer</p>
+                        <p className="sm-text top-margin mb-0">UI/UX & Web Designer</p> 
                         <h3 className="lg-text mb-0 body-heading">Designing intuitive interfaces  <span>and high performing web experiences.</span> </h3>
-                        <p className="xs-text para-width">I specialize in crafting user-focused digital products that combine thoughtful UX,
-modern UI systems, and responsive frontend development.</p>
+                        <p className="xs-text para-width">I create responsive website designs, landing pages, and user friendly interfaces focused on clarity, usability, and visual consistency.</p>
                         <div className="d-flex flex-wrap">  
-                            
-                            
                             <a
                                 href="/AkshayResume.pdf"
                                 download="AkshayResume.pdf"
